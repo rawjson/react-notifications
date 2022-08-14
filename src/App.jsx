@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { SomeComponent } from './components/someComponent';
+import HomePage from './pages';
 
 export default class App extends Component {
   render() {
-    return <SomeComponent />;
+    return <HomePage />;
   }
 }
